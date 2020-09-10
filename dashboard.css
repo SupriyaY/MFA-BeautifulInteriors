@@ -1,0 +1,87 @@
+
+body {
+    padding: 50px;
+    color:  #2D2A24;
+    text-align: center
+  }
+  
+  
+  h1{
+  font-family: 'Capriola', sans-serif;  
+  color:  #2d2a24;
+  font-size: 40px;
+  }
+  
+  h2{
+  font:20px;
+  font-family: 'Capriola', sans-serif;
+  }
+  
+  a {
+    color: #00AB84;
+    text-decoration: none;
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://i.imgur.com/XyPRvw4.jpg);
+    position: absolute;
+    z-index: -999;
+    }
+
+    header {
+        min-width: 100vw;
+        min-height: 10vh;
+        display: flex;
+        justify-content: center;
+        background: #00a1ab;
+        align-items:center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+      }
+
+ .sticky{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+    width: 30vh;
+    height: 30vh;
+    background-color: #ffff88;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    z-index: 999;
+
+ }
+
+ .picture{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+    width: 30vh;
+    height: 30vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    z-index: 999;
+
+ }
+
+button{
+  background: #00AB84;
+  color: white
+}
